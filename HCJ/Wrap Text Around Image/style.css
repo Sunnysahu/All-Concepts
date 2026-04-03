@@ -1,0 +1,18 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: auto;
+      background-color: rgb(232, 232, 232);
+}
+* {
+  background-color: rgb(232, 232, 232);
+}
+
+.imgSize {
+  width: 50%;
+  float: left;
+  shape-outside: url(./download.png);
+  shape-margin: 8px;
+  object-fit: contain;  /* preserves transparency, shows entire PNG */
+  background: transparent; 
+  margin-right: 10px; /* spacing between image and text */
+}
